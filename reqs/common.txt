@@ -12,4 +12,4 @@ django-filter           # Filtering support
 django-rest-swagger     # Generates docs for the api
 django-model-utils==2.0.2   # Common utilies for building models
 dj-database-url
-dj_static
+dj-static
