@@ -1,0 +1,4 @@
+quitbit
+=======
+
+Quitbit Django backend
