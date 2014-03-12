@@ -46,6 +46,9 @@ class CigaretteViewSet(viewsets.ModelViewSet):
     # authentication_classes = (authentication.TokenAuthentication,)
     paginate_by = 100
 
+    def pre_save(self, obj):
+        obj.user = self.request.user
+
     # owner = serializers.Field(source='owner.username')
     # def pre_save(self, obj):
     #     obj.owner = self.request.user

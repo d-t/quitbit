@@ -11,3 +11,4 @@ markdown                # Markdown support for the browsable API.
 django-filter           # Filtering support
 django-rest-swagger     # Generates docs for the api
 django-model-utils==2.0.2   # Common utilies for building models
+django-toolbelt
