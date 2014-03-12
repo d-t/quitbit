@@ -212,6 +212,9 @@ THIRD_PARTY_APPS = (
     # Rest Api Docs Generator
     'rest_framework_swagger',
 
+    # Gunicorn
+    'gunicorn',
+
 )
 
 COMMENTS_APP = 'threadedcomments'
