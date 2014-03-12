@@ -1,0 +1,13 @@
+Django>=1.5.0,<=1.5.9
+django-celery==3.0.21
+django-compressor==1.3
+Fabric==1.6.1
+South==0.8.1
+Sphinx==1.1.3
+# Added by me
+mysql-python
+djangorestframework
+markdown                # Markdown support for the browsable API.
+django-filter           # Filtering support
+django-rest-swagger     # Generates docs for the api
+django-model-utils==2.0.2   # Common utilies for building models

@@ -1,0 +1,6 @@
+-r common.txt
+# Unstable
+# django-debug-toolbar==0.9.4
+# Working
+git+https://github.com/django-debug-toolbar/django-debug-toolbar.git#egg=django-debug-toolbar
+django-extensions==1.3.3
