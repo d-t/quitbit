@@ -47,18 +47,20 @@ MANAGERS = ADMINS
 
 ########## DATABASE CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
-DATABASES['default'] =  dj_database_url.config()
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.',
-#         'NAME': '',
-#         'USER': '',
-#         'PASSWORD': '',
-#         'HOST': '',
-#         'PORT': '',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': dj_database_url.config(),
+        # 'ENGINE': 'django.db.backends.',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+    }
+}
+
+# DATABASES['default'] =  dj_database_url.config()
 
 ########## END DATABASE CONFIGURATION
 
