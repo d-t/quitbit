@@ -32,3 +32,4 @@ sqlparse==0.1.11
 virtualenv==1.11.4
 wsgiref==0.1.2
 dj-static
+django-storages
